@@ -1,0 +1,22 @@
+print("companies : 'AMZ','FLP','SMP','MYN','AZO'")
+company=input("enter the company").lower()
+print("products:phone,computer,tv,earphone,tablet,charger,mouse,keypad,bluetooth,pendrive,remote,speaker,headset,laptop,pc")
+products=input("enter the product name:").lower()
+
+
+if company =='AMZ':
+    if products =='laptop':
+        data= [{"product":"laptop1","price":2236,"rating":4.5,"dicount":63,"availability":"yes"},
+               {"product":"laptop2","price":2200,"rating":4.3,"dicount":65,"availability":"out of stock"},
+               {"product":"laptop3","price":1000,"rating":4.2,"dicount":69,"availability":"yes"},
+              {"product":"laptop4","price":1200,"rating":4.0,"dicount":64,"availability":"no "},
+              {"product":"laptop5","price":300,"rating":4.8,"dicount":61,"availability":"yes"},
+              {"product":"laptop6","price":400,"rating":4.1,"dicount":60,"availability":"out of stock"}]
+        print(data)
+    elif products =='phone':
+        data={{"product":"laptop","price":2236,"rating":4.5,"dicount":63,"availability":"yes"}}
+        print(data)
+    else:
+        print("will predict  next time")
+else:
+    print("product development")
