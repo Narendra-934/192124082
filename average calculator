@@ -1,0 +1,11 @@
+list=[]
+size=int (input("enter the elements which we want:"))
+for i in range(size):
+    list.append(int(input()))
+le=len(list)
+total=0
+for k in list:
+    total+=k
+avg=total/le
+
+print("avg",avg)
